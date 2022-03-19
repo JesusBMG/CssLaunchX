@@ -1,0 +1,121 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #efefef;
+    
+}
+
+
+.contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+    
+}
+
+.contenedor p {
+	margin-bottom:40px;
+    
+}
+
+header nav {
+	background:#364552;
+	margin-bottom:10px;
+    
+}
+
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+    
+}
+
+header nav ul li {
+	float: left;
+    
+}
+
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header nav ul li a:hover {
+	background:#2980b9;
+    
+}
+
+
+
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.center{
+    padding: 50px 0;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #efefef;
+    
+}
+section article{
+	transition: box-shadow 0.3 ease;
+    background-color: #ffff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+	cursor: pointer;
+}
+section article:hover{
+	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article a, h2{
+	text-decoration: none;
+}
+
+section article h2, section article p{
+    margin: 1rem;
+
+}
+div.noticia {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #efefef;
+    color: #364552;
+    padding: 100px;
+    text-align: justify;
+  }
+  
+  div.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  div.noticia img.derecha {
+    float: right;
+    margin-left: 15px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
+ 
+  table {
+    width: 100%;
+	max-width:1000px;
+	margin:auto;
+ }
+ th, td {
+    text-align: left;
+ }
